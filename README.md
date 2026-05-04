@@ -59,6 +59,7 @@ experiments/
 
 * run_deterministic.py — reproduces main results
 * seed_sweep.py — evaluates all two-edge seeds
+* generate_figures.py - produces figures
 
 outputs/
 
