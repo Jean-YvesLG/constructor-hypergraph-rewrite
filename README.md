@@ -1,4 +1,4 @@
-# Constructor-Gated Hypergraph Rewrite System — Reference Implementation
+# Constructor-Gated Reachability and Assembly Complexity in Hypergraph Rewrite Systems — Reference Implementation
 
 ## Overview
 
