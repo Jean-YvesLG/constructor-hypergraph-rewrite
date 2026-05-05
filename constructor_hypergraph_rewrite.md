@@ -407,6 +407,12 @@ The deterministic reference implementation used to generate the results and figu
 
 [https://github.com/Jean-YvesLG/constructor-hypergraph-rewrite](https://github.com/Jean-YvesLG/constructor-hypergraph-rewrite)
 
+A citable archived version is available via Zenodo:
+
+[https://doi.org/10.5281/zenodo.20031787](https://doi.org/10.5281/zenodo.20031787)
+
+
+
 \newpage
 
 \section*{Supplementary Material: Simulation Specification}
