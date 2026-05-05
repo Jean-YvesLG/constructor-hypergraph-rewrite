@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="900" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .box { fill: white; stroke: black; stroke-width: 2; rx: 10; ry: 10; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; dominant-baseline: middle; fill: black !important; }
+    .arrow { stroke: black; stroke-width: 2; marker-end: url(#arrowhead); }
+    .label { font-size: 12px; fill: black !important; text-anchor: middle; }
+</style>
+
+<defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+          refX="10" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" />
+  </marker>
+</defs>
+
+<!-- White background -->
+<rect width="700" height="900" fill="white"/>
+
+<!-- Boxes -->
+<rect class="box" x="200" y="40" width="300" height="60"/>
+<text class="text" x="350" y="70">Constructor C (typed, inert edges)</text>
+
+<rect class="box" x="200" y="130" width="300" height="60"/>
+<text class="text" x="350" y="160">Constructor neighbourhood</text>
+
+<rect class="box" x="200" y="220" width="300" height="60"/>
+<text class="text" x="350" y="250">R_c = {γ, δ, ε}</text>
+
+<rect class="box" x="200" y="310" width="300" height="60"/>
+<text class="text" x="350" y="340">Substrate S (S-edges)</text>
+
+<rect class="box" x="50" y="310" width="120" height="60"/>
+<text class="text" x="110" y="340">R_free = {α, β}</text>
+
+<rect class="box" x="200" y="400" width="300" height="60"/>
+<text class="text" x="350" y="430">Canonicalization (isomorphism quotient)</text>
+
+<rect class="box" x="200" y="490" width="300" height="60"/>
+<text class="text" x="350" y="520">BFS Reachability Graph</text>
+
+<rect class="box" x="200" y="580" width="300" height="60"/>
+<text class="text" x="350" y="610">Assembly Index (shortest-path depth)</text>
+
+<!-- Arrows -->
+<line class="arrow" x1="350" y1="100" x2="350" y2="130"/>
+<text class="label" x="420" y="115">defines</text>
+
+<line class="arrow" x1="350" y1="190" x2="350" y2="220"/>
+<text class="label" x="430" y="205">licenses</text>
+
+<line class="arrow" x1="350" y1="280" x2="350" y2="310"/>
+<text class="label" x="420" y="295">act on</text>
+
+<line class="arrow" x1="110" y1="370" x2="200" y2="340"/>
+<text class="label" x="150" y="370">act on</text>
+
+<line class="arrow" x1="350" y1="370" x2="350" y2="400"/>
+<text class="label" x="470" y="385">evolves → canonicalize</text>
+
+<line class="arrow" x1="350" y1="460" x2="350" y2="490"/>
+<text class="label" x="470" y="475">quotient space</text>
+
+<line class="arrow" x1="350" y1="550" x2="350" y2="580"/>
+<text class="label" x="470" y="565">shortest paths</text>
+
+</svg>
