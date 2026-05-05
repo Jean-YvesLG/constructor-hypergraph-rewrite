@@ -2,8 +2,14 @@
 title: "Constructor-Gated Reachability and Assembly Complexity in Hypergraph Rewrite Systems"
 author: "Jean-Yves Le Goff"
 date: "2026"
-figPrefix: "Figure"
 ---
+
+\begin{center}
+Independent Researcher
+
+ORCID: \href{https://orcid.org/0009-0008-7288-0218}{0009-0008-7288-0218}
+\end{center}
+
 
 ## Abstract
 
@@ -219,7 +225,7 @@ This establishes the existence of a non-trivial reachability boundary induced by
 
 ![Reachability counts under free and constructor-gated rule regimes](figures/figure1_reachability_counts_1.png){#fig:reachability}
 
-As shown in @fig:reachability, starting from the same initial seed $S_0$​, the baseline system yields 3 reachable configurations, whereas the constructor-gated system yields 106. The constructor-exclusive set $\Delta$ contains 103 configurations.
+As shown in Figure 4, starting from the same initial seed $S_0$​, the baseline system yields 3 reachable configurations, whereas the constructor-gated system yields 106. The constructor-exclusive set $\Delta$ contains 103 configurations.
 
 ### **3.2 Assembly Index Distribution **
 
@@ -283,7 +289,7 @@ This provides evidence of reuse-driven branching within the constructor-gated re
 
 ![Depth-conditioned motif reuse in the constructor-gated reachable space](figures/figure4_depth_conditioned_reuse.png){#fig:reuse}
 
-As shown in @fig:reuse, the depth-conditioned persistence of the motif $\{3,4,6\}$ emerges at shallow depths and persists across a substantial portion of the reachable space.
+As shown in Figure 7, the depth-conditioned persistence of the motif $\{3,4,6\}$ emerges at shallow depths and persists across a substantial portion of the reachable space.
 
 For each derivation depth, the plotted value gives the number of reachable configurations at that depth containing the motif {3,4,6}.
 
@@ -409,7 +415,7 @@ The deterministic reference implementation used to generate the results and figu
 
 A citable archived version is available via Zenodo:
 
-[https://doi.org/10.5281/zenodo.20031787](https://doi.org/10.5281/zenodo.20031787)
+[https://doi.org/10.5281/zenodo.20031786](https://doi.org/10.5281/zenodo.20031786)
 
 
 

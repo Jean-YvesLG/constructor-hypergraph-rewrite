@@ -176,7 +176,7 @@ Jean-Yves Le Goff, *Constructor-Gated Reachability and Assembly Complexity in Hy
 
 Archived version:
 
-https://doi.org/10.5281/zenodo.20031787
+https://doi.org/10.5281/zenodo.20031786
 
 ---
 
