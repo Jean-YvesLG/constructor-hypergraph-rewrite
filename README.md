@@ -4,7 +4,7 @@
 
 This repository contains the deterministic reference implementation for the model described in:
 
-> *Constructor-Defined Possibility Boundaries in Hypergraph Rewrite Systems*
+> *Constructor-Gated Reachability and Assembly Complexity in Hypergraph Rewrite Systems*
 
 The implementation provides an exact, finite realization of a typed hypergraph rewrite system in which a constructor gates a subset of rewrite rules, inducing a sharp reachability boundary Δ.
 
@@ -50,20 +50,21 @@ The repository also includes a complete evaluation over all 15 two-edge seeds fo
 
 core/
 
-* rules.py — implementation of α–ε
-* hypergraph.py — data structures
-* bfs.py — reachability enumeration
-* canonicalization.py — isomorphism handling
+* hypergraph_core.py — deterministic typed-edge rewrite semantics, canonicalization, BFS reachability, Δ computation, and analysis helpers
 
 experiments/
 
-* run_deterministic.py — reproduces main results
-* seed_sweep.py — evaluates all two-edge seeds
-* generate_figures.py - produces figures
+* run_deterministic.py — reproduces the main reachability and Assembly Index results
+* seed_sweep.py — evaluates all two-edge seeds over |SUB| = 4
+* generate_figures.py — regenerates manuscript figures
 
-outputs/
+figures/
 
-* (generated result files)
+* manuscript figures and schematic assets
+
+constructor-hypergraph-rewrite.pdf
+
+* compiled manuscript PDF
 
 ---
 
@@ -106,6 +107,16 @@ This evaluates all 15 two-edge seeds over |SUB| = 4 and reports:
 * reachability sizes
 * Δ per seed
 * qualitative classification (connected vs disconnected)
+
+---
+
+### Regenerate manuscript figures
+
+```bash
+python experiments/generate_figures.py
+```
+
+This regenerates the main manuscript figures in the `figures/` directory.
 
 ---
 
@@ -161,7 +172,11 @@ This code is released under the MIT License for reproducibility and research use
 
 If you use this code, please cite:
 
-*Constructor-Defined Possibility Boundaries in Hypergraph Rewrite Systems*
+Jean-Yves Le Goff, *Constructor-Gated Reachability and Assembly Complexity in Hypergraph Rewrite Systems*.
+
+Archived version:
+
+https://doi.org/10.5281/zenodo.20031787
 
 ---
 
